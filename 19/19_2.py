@@ -27,6 +27,4 @@ def possible_turns(coord):
             hod.append((bykv[x-2], y+1))
         if y-1 > 0:
             hod.append((bykv[x-2], y-1))
-    print(hod)
-
-possible_turns("H8")
+    return(hod)
